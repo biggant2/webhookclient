@@ -1,3 +1,4 @@
 # webhookclient
 
-**npm run start** to run the application.
+
+**npm install** then **npm start** to run the application.
