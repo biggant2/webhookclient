@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Webhook Client</title>
+        <link rel="stylesheet" href="index.css">
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+        <script src="jquery-3.5.1.min.js"></script>
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <img src="assets/title.png">
+            <div id="urlAndSend">
+                <img id="url" src="assets/url.png">
+                <img id="send" src="assets/send.png">
+                <input type="text" id="iWUrl">
+                <input type="button" id="submit" onclick="submit()">
+            </div>
+            <div class="message">
+                <img id="message" src="assets/message.png">
+                <textarea type="text" id="iMessage"></textarea>
+            </div>
+            <div class="username">
+                <img id="username" src="assets/username.png">
+                <input type="text" id="iUsername">
+            </div>
+            <div id="profilePicture">
+                <p id="pfpText">profile picture</p>
+                <!--<img id="plus" src="assets/plusbutton.png">-->
+                <img id="urlBox" src="assets/urlbox.png">
+                <input type="text" id="iUrl">
+                <!--<input type="file" name="pfpFile" id="pfpFile" accept="image/png, image/jpeg">-->
+                <!--<p id="browse">browse files</p>-->
+            </div>
+            <div class="line" style="margin-top: 99px"></div>
+            <div class="embed">
+                <img id="embed" src="assets/embed.png">  
+                <textarea type="text" id="iEmbed" placeholder="Provide JSON Format. See https://leovoel.github.io/embed-visualizer/ for details"></textarea>
+            </div>
+            <div class="file">
+                <img id="file" src="assets/files.png">
+                <input type="file" name="files" id="files" multiple>
+            </div>
+        </div>
+    </body>
+</html>

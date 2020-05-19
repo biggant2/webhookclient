@@ -1,0 +1,16 @@
+{
+  "name": "webhookelectronapp",
+  "version": "1.0.0",
+  "description": "Webhook client using electron",
+  "main": "main.js",
+  "dependencies": {
+    "electron": "^9.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron main.js"
+  },
+  "author": "biggant1",
+  "license": "ISC"
+}

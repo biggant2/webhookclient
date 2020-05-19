@@ -1,0 +1,173 @@
+body {
+    background-color: #8C908A;
+    font-family: 'Roboto';
+}
+
+input {
+    border-radius: 2px;
+}
+
+#container {
+    width: 646px;
+    height: 446px;
+}
+
+#username {
+    margin-top: 24px;
+}
+
+#iUsername {
+    position: absolute;
+    top: 80px;
+    left: 15px;
+    width: 278px;
+}
+
+#profilePicture {
+    width: 256px;
+    height: 70px;
+}
+
+#pfpText {
+    margin-top: 10px;
+    margin-left: 3px;
+}
+
+#plus {
+    margin-top: -8px;
+    margin-left: 21px;
+}
+
+#browse {
+    margin-top: 50px;
+    margin-left: 5px;
+}
+
+#urlBox {
+    position: absolute;
+    left: 11px;
+    top: 156px;
+}
+
+#iUrl {
+    position: absolute;
+    top: 175px;
+    left: 20px;
+    width: 160px;
+    height: 10px;
+}
+
+#pfpFile {
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    top: 155px;
+    left: 27px;
+    opacity: 0;
+}
+
+.line {
+    width: 323px;
+    height: 0px;
+    border: 1px solid #000000;
+    margin-top: 35px;
+}
+
+#saveAndLoad {
+    width: 303px;
+    height: 38px;
+}
+
+#saveWebhook {
+    margin-left: 13px;
+    margin-top: 12px;
+}
+
+#loadWebhook {
+    margin-left: 169px;
+    position: absolute;
+    left: 9px;
+    top: 248px;
+}
+
+#embed {
+    margin-top: 10px;
+    margin-left: 8px;
+}
+
+#iEmbed {
+    position: absolute;
+    top: 330px;
+    left: 20px;
+    resize: none;
+    width: 300px;
+    height: 140px;
+}
+
+#url {
+    margin-left: 343px;
+    position: absolute;
+    top: 13px;
+    left: 0;
+}
+
+#iWUrl {
+    position: absolute;
+    top: 30px;
+    left: 347px;
+    height: 10px;
+    width: 240px;
+}
+
+#send {
+    margin-left: 368px;
+    margin-top: 13px;
+    position: absolute;
+    top: 0;
+    left: 229px;
+}
+
+#submit {
+    position: absolute;
+    left: 598px;
+    top: 13px;
+    width: 50px;
+    height: 38px;
+    background:transparent;
+    border: 0;
+}
+
+#message {
+    margin-left: 343px;
+    margin-top: 7px;
+    position: absolute;
+    top: 53px;
+    left: 0;
+}
+
+#iMessage {
+    position: absolute;
+    top: 84px;
+    left: 350px;
+    resize: none;
+    width: 282px;
+    height: 245px;
+}
+
+#file {
+    margin-left: 343px;
+    margin-top: 46px;
+    position: absolute;
+    top: 306px;
+    left: 0;
+}
+
+#files {
+    border: 1px solid #000000;
+    position: absolute;
+    top: 375px;
+    left: 344px;
+    width: 300px;
+    height: 99px;
+    opacity: 0;
+}
