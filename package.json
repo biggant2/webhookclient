@@ -4,7 +4,7 @@
   "description": "Webhook client using electron",
   "main": "main.js",
   "dependencies": {
-    "electron": "^9.0.0"
+    "electron": "^13.6.6"
   },
   "devDependencies": {},
   "scripts": {
